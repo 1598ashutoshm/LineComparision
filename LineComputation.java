@@ -16,11 +16,11 @@ public class LineComputation {
 		int len_of_line2=(int)Math.sqrt(len2);
 		System.out.println(len_of_line2);
 		
-		if(len_of_line1==len_of_line2) {
+		if(len_of_line1==len_of_line2) 
 			System.out.println("Two lines are equal");
-		}
-		else {
-			System.out.println("Two lines are not equal");
-		}
+		else if(len_of_line1<len_of_line2)
+			System.out.println("Line 2 greater than Line 1");
+		else 
+			System.out.println(" line1 greater than line 2");
 	}
 }
