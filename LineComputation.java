@@ -1,9 +1,7 @@
 
 public class LineComputation {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	
+	public void TestLineComputation() {
 		int x1=2 , y1=3;
 		int x2=6 , y2=4;
 		int len1=(x2-x1)*(x2-x1)+(y2-y1)*(y2-y1);
@@ -22,5 +20,13 @@ public class LineComputation {
 			System.out.println("Line 2 greater than Line 1");
 		else 
 			System.out.println(" line1 greater than line 2");
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		LineComputation l1=new LineComputation();
+		l1.TestLineComputation();
 	}
 }
